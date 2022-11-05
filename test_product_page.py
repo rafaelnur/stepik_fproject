@@ -12,5 +12,3 @@ def test_guest_can_add_product_to_basket(browser, number):
     product_page.solve_quiz_and_get_code()
     product_page.should_be_message_about_adding()
     product_page.should_be_message_basket_total()
-
-123
