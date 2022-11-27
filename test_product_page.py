@@ -19,7 +19,7 @@ class TestUserAddToBasketFromProductPage:
         login_page.register_new_user(email, password)
         login_page.should_be_authorized_user()
 
-    def test_guest_can_add_product_to_basket(self, browser):
+    def test_user_can_add_product_to_basket(self, browser):
         link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
         product_page = ProductPage(browser, link)
         product_page.open()
