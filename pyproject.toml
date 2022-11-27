@@ -19,5 +19,6 @@ build-backend = "poetry.core.masonry.api"
 [tool.pytest.ini_options]
 markers = [
     "login_guest: Test Login From Main Page",
-    "reg_user_prod_page : Test User Add To Basket From Product Page"
+    "reg_user_prod_page : Test User Add To Basket From Product Page",
+    "need_review : need to review this tests"
 ]
